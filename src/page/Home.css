@@ -1,0 +1,13 @@
+.home-kalima{
+    overflow-y: auto;
+    height: 300px;
+}
+
+@media (min-width: 320px) and (max-width: 470px) {
+    .home-kalima{
+        /* width: 310px; */
+        overflow-y: auto;
+        height: 300px;
+    }
+
+}

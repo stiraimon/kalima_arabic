@@ -1,0 +1,140 @@
+.control-block-book{
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.control-book-read{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.name-book{
+    font-size: 34px;
+    background-color: #D8DEBA;
+}
+
+.button-switch{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 18px;
+}
+
+.books-control{
+    padding-top: 50px;
+}
+
+
+.books-name-icon-link{
+    font-size: 24px;
+    color: #3f4520ad;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.books-name-icon-link svg{
+    font-size: 18px;
+}
+
+.books-name-icon-link:hover{
+    font-size: 24px;
+    color: #3f4520;
+}
+
+.books-h1  {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    
+    width: 800px;
+    color: #3F4520;
+    font-size: 34px;
+}
+
+.books-h1  p{
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+}
+
+.button-back{
+    width: 150px;
+    font-size: 18px;
+    padding: 10px;
+    font-weight: 700;
+    border-radius: 5px;
+    background: #D8DEBA;
+}
+
+@media (min-width: 320px) and (max-width: 470px) {
+    .control-block-book{
+    width: 320px;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+
+    .control-block-book h1{
+        font-size: 24px;
+        
+    }
+
+    .control-book-read{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 30px;
+    }
+
+    .books-control{
+        padding-top: 50px;
+    }
+    
+    
+    .books-name-icon-link{
+        font-size: 20px;
+        color: #3f4520ad;
+        display: flex;
+        align-items: center;
+        gap: 15px;
+    }
+    
+    .books-name-icon-link svg{
+        font-size: 18px;
+    }
+    
+    .books-name-icon-link:hover{
+        font-size: 24px;
+        color: #3f4520;
+    }
+    
+    .books-h1  {
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+        
+        width: 320px;
+        color: #3F4520;
+        font-size: 28px;
+    }
+    
+    .books-h1  p{
+       display: flex;
+       flex-direction: row;
+       flex-wrap: wrap;
+    }
+    
+    .button-switch{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        font-size: 18px;
+    }
+
+}

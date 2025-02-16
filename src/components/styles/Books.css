@@ -15,6 +15,7 @@
 .name-book{
     font-size: 34px;
     background-color: #D8DEBA;
+    border-radius: 5px;
 }
 
 .button-switch{
@@ -53,7 +54,7 @@
     
     width: 800px;
     color: #3F4520;
-    font-size: 34px;
+    font-size: 30px;
 }
 
 .books-h1  p{
@@ -118,7 +119,6 @@
         display: flex;
         flex-direction: column;
         row-gap: 20px;
-        
         width: 320px;
         color: #3F4520;
         font-size: 28px;

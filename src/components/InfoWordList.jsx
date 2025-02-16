@@ -18,13 +18,28 @@ const InfoWordList = () => {
     <>
       <div>
         <div className=" flex flex-wrap flex-col pt-10 gap-5">
-          <p className="tx-kalima-style"> كلمة : {selectedWord.word}</p>
-          <p className="tx-kalima-style"> مرادف : {selectedWord.synonym}</p>
-          <p className="tx-kalima-style">جمع : {selectedWord.plural}</p>
-          <p className="tx-kalima-style">عكس : {selectedWord.antonym}</p>
-          <p className="tx-kalima-style">جملة : {selectedWord.example}</p>
+          <div>
+          <span >كلمة :</span>
+          <p className="tx-kalima-style">{selectedWord.word}</p>
+          </div>
+          <div>
+          معنى :
+          <p className="tx-kalima-style">{selectedWord.synonym}</p>
+          </div>
+          <div>
+          جمع :
+          <p className="tx-kalima-style">{selectedWord.plural}</p>
+          </div>
+          <div>
+          عكس :
+          <p className="tx-kalima-style">{selectedWord.antonym}</p>
+          </div>
+          <div>
+          جملة :
+          <p className="tx-kalima-style">{selectedWord.example}</p>
+          </div>
           <button className="button-add" onClick={goBack}>
-            Назад
+          back
           </button>
         </div>
       </div>

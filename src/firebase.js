@@ -13,7 +13,6 @@ const firebaseConfig = {
   measurementId: import.meta.env.VITE_FIREBASE_MEASUREMENT_ID
 };
 
-console.log(import.meta.env.VITE_FIREBASE_API_KEY); // Печатает ключ
 
 
 const app = initializeApp(firebaseConfig);

@@ -66,7 +66,7 @@ const BookRead = () => {
         <hr className='h-0.5 mt-3 mb-3 bg-color-bg-hr'/>
       </div>
       <div>
-        <hr className='h-0.5 mb-2 mt-2 bg-color-bg-hr'/>
+        {/* <hr className='h-0.5 mb-2 mt-2 bg-color-bg-hr'/> */}
         <h1 className='name-book p-5'>{selectedBook.nameBook}</h1>
         <hr className='h-0.5 mt-2 mb-10 bg-color-bg-hr'/>
       </div>

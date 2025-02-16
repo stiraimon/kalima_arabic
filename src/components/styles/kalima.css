@@ -1,9 +1,11 @@
+
 .tx-kalima-style{
+    padding: 5px;
     width: 250px;
     border: 1px solid;
     border-color: #CDA434;
     border-radius: 5px;
-    font-size: 28px;
+    font-size: 24px;
     display: flex;
     align-items: center;
     justify-content: center;

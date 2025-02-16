@@ -18,13 +18,28 @@ const InfoVerb = () => {
     <>
       <div>
         <div className=" flex flex-wrap flex-col pt-10 gap-5">
-          <p className="tx-kalima-style"> كلمة : {selectedVerb.past}</p>
-          <p className="tx-kalima-style"> مرادف : {selectedVerb.present}</p>
-          <p className="tx-kalima-style">جمع : {selectedVerb.imperative}</p>
-          <p className="tx-kalima-style">عكس : {selectedVerb.masdar}</p>
-          <p className="tx-kalima-style">جملة : {selectedVerb.example}</p>
+          <div>
+          <span className="span-kalima-i"> كلمة :</span> 
+          <p className="tx-kalima-style">{selectedVerb.past}</p>
+          </div>
+          <div>
+          <span className="span-kalima-i"> مرادف : </span> 
+          <p className="tx-kalima-style">{selectedVerb.present}</p>
+          </div>
+          <div>
+          <span >جمع :</span>  
+          <p className="tx-kalima-style">{selectedVerb.imperative}</p>
+          </div>
+          <div>
+          <span>عكس : </span> 
+          <p className="tx-kalima-style">{selectedVerb.masdar}</p>
+          </div>
+          <div>
+          <span>جملة:</span>  
+          <p className="tx-kalima-style">{selectedVerb.example}</p>
+          </div>
           <button className="button-add" onClick={goBack}>
-            Назад
+          back
           </button>
         </div>
       </div>

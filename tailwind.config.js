@@ -6,7 +6,7 @@ export default {
   ],
   theme: {
     fontSize: {
-      'heading-size': '34px',
+      'heading-size': '30px',
       'header-size': '24px',
     },
     extend: {
